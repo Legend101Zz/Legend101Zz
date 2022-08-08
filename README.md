@@ -21,14 +21,14 @@
 
 - 📄 Know about my experiences [https://www.canva.com/design/DAE8MjUjY3Q/dnHmOIYAjCQSVR_n6qNMMQ/view?utm_content=DAE8MjUjY3Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink](https://www.canva.com/design/DAE8MjUjY3Q/dnHmOIYAjCQSVR_n6qNMMQ/view?utm_content=DAE8MjUjY3Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
-- ⚡ Fun fact **I sleep a lot :)**
+- ⚡ Fun fact **I am a die-hard manga reader :)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://codepen.io/legend_101" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="legend_101" height="30" width="40" /></a>
+<a href="https://codepen.io/gammakappa243" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="legend_101" height="30" width="40" /></a>
 <a href="https://twitter.com/mrigeshthakur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mrigeshthakur" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/mrigesh thakur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mrigesh thakur" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/mrigesh_thakur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="mrigesh_thakur" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/mrigesh-thakur-476bb8226/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mrigesh thakur" height="30" width="40" /></a>
+<a href="https://stackoverflow.com/users/19393935/mrigesh-thakur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="mrigesh_thakur" height="30" width="40" /></a>
 <a href="https://instagram.com/le_gend244" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="le_gend244" height="30" width="40" /></a>
 </p>
 
