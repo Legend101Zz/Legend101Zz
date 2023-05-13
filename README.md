@@ -19,11 +19,11 @@
 
 - 📫 How to reach me **mrigeshthakur11@gmail.com**
 
-- 📄 Know about my experiences [https://www.canva.com/design/DAE8MjUjY3Q/dnHmOIYAjCQSVR_n6qNMMQ/view?utm_content=DAE8MjUjY3Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink](https://www.canva.com/design/DAE8MjUjY3Q/dnHmOIYAjCQSVR_n6qNMMQ/view?utm_content=DAE8MjUjY3Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+- 📄 Know about my experiences (https://mrigeshthakur-portfolio.netlify.app)
 
 - ⚡ Fun fact **I am a die-hard manga reader :)**
 
-<h3 align="left">Connect with me:</h3>
+
 <p align="left">
 <a href="https://codepen.io/gammakappa243" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="legend_101" height="30" width="40" /></a>
 <a href="https://twitter.com/mrigeshthakur" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mrigeshthakur" height="30" width="40" /></a>
