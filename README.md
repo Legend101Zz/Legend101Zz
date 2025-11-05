@@ -7,7 +7,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=legend101zz&label=Profile%20views&color=0e75b6&style=flat" alt="legend101zz" /> </p>
 
-- 🔭 I’m currently working on [Algame-MRIMADHA](https://github.com/Legend101Zz/Algame-MRIMADHA)
+- 🔭 I’m currently working on [Algame-MRIMADHA](https://github.com/Legend101Zz/Algame-MRIMADHA) and [ML from scratch](https://github.com/Legend101Zz/ml-from-scratch/blob/main/readme.md)
 
 - 🌱 I’m currently exploring **Machine Learning** and **Deep Learning**, specializing in crafting robust, scalable trading systems.
 
@@ -15,7 +15,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/Legend101Zz?tab=repositories](https://github.com/Legend101Zz?tab=repositories)
 
-- 💬 Ask me about **Node.js, Front-End, MongoDB, Web3, Bitcoin, CosmWasm, Machine Learning, Deep Learning**
+- 💬 Ask me about **Node.js,Python, C++, Rust, Front-End, MongoDB, Web3, Bitcoin, CosmWasm, Machine Learning, Deep Learning**
 
 - 📫 How to reach me **mrigeshthakur11@gmail.com**
 
@@ -23,7 +23,7 @@
 
 - ⚡ Fun fact: **I am a die-hard manga reader :)**
 
-- 🏆 Fellowships: **Meta's XROS Fellow** | **Summer of Bitcoin Fellow**
+- 🏆 Fellowships: **Meta's XROS Fellow** | **Summer of Bitcoin Fellow** | **Google Summer of Code**
 
 <p align="left">
 <a href="https://codepen.io/gammakappa243" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="codepen" height="30" width="40" /></a>
