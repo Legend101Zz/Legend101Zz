@@ -122,7 +122,9 @@ for (const r of contributed) vote(r, 0.6);     // half a vote: I write in them, 
 for (const r of repos) {
   vote(r, 1);
 }
-const langs = [...share].sort((a, b) => b[1] - a[1]).slice(0, 8);
+const ranked = [...share].sort((a, b) => b[1] - a[1]);
+const langs = ranked.slice(0, 8);
+const alsoWrites = ranked.slice(8, 14).map(([n]) => n);
 const langTotal = langs.reduce((n, l) => n + l[1], 0) || 1;
 
 await mkdir(OUT, { recursive: true });
@@ -289,7 +291,7 @@ ${paperDefs}
 
 /* ---------------------------------------------------------- the languages */
 {
-  const W = 430, H = 52 + langs.length * 21 + 40;
+  const W = 430, H = 52 + langs.length * 21 + 54;
   const inks = [INK.ink, INK.teal, INK.red, INK.amber, INK.soft, INK.paper2, INK.teal, INK.red];
   let x = 14, bar = '';
   langs.forEach(([, v], i) => {
@@ -311,7 +313,8 @@ ${paperDefs}
   <text x="${W - 14}" y="22" text-anchor="end" font-size="9.5" fill="${INK.soft}" font-family="${MONO}">${counted} repos, averaged</text>
   <line x1="14" y1="28" x2="${W - 14}" y2="28" stroke="${INK.ink}" stroke-width="1" opacity=".25"/>
   ${bar}${rows}
-  <text x="14" y="${H - 14}" font-size="9.5" fill="${INK.soft}" font-family="${MONO}">mine and the ones I contribute to · plus Java at work, which GitHub cannot see</text>
+  <text x="14" y="${H - 27}" font-size="9.5" fill="${INK.ink}" font-family="${MONO}">also: ${esc(alsoWrites.slice(0, 5).join(' · '))}</text>
+  <text x="14" y="${H - 13}" font-size="9.5" fill="${INK.soft}" font-family="${MONO}">my repos + the ones I contribute to · Java and C++ live at work and in Brian2's codegen</text>
 </svg>`);
 }
 
@@ -347,4 +350,15 @@ ${paperDefs}
   } else console.warn('chart: no manga-source.svg, skipping manga.svg');
 }
 
+/* GitHub's image proxy caches README images hard, so stamp the URLs with today's date
+   — a new URL is a new cache entry, and the profile updates the day the numbers do. */
+{
+  const stamp = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+  const readme = path.join(ROOT, 'README.md');
+  const before = await readFile(readme, 'utf8');
+  const after = before.replace(/\.\/assets\/(contributions|registers|radar|languages|manga)\.svg(\?v=\d+)?/g, `./assets/$1.svg?v=${stamp}`);
+  if (after !== before) { await writeFile(readme, after); console.log(`chart: stamped README image urls v=${stamp}`); }
+}
+
 console.log(`chart: ${allTime} contributions since ${FIRST_YEAR} · ${langs.length} languages · streak ${best}d → assets/`);
+console.log('chart: ' + langs.map(([n, v]) => `${n} ${((v / langTotal) * 100).toFixed(1)}%`).join(' · '));
