@@ -76,7 +76,7 @@
     <rect x="72" y="100" width="300" height="2.5" fill="#DF5C3A"/>
     <text x="72" y="130" font-size="17" fill="#22304A">Mrigesh Thakur — software engineer</text>
     <text x="72" y="156" font-size="13" fill="#5C6A82">// 26 rooms · 6 of them closed · still building</text>
-    <text x="72" y="196" font-size="13" fill="#177C80">walmart global tech · gsoc 2025 · caravan · brian2</text>
+    <text x="72" y="196" font-size="12.4" fill="#177C80">founder · builder · xros 2023 · sob 2024 · gsoc 2025</text>
     <text x="72" y="218" font-size="13" fill="#5C6A82">$ <tspan fill="#22304A">open comreton.vercel.app</tspan><tspan fill="#DF5C3A">_</tspan></text>
   </g>
 

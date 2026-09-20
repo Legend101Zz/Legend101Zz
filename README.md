@@ -7,8 +7,8 @@
 ```console
 $ whoami
 mrigesh thakur — software engineer II, walmart global tech
-               — google summer of code 2025 · meta xr fellow · summer of bitcoin
-               — founder twice, six things closed, still building
+               — founder · builder · open-source maintainer
+               — meta xros 2023 · summer of bitcoin 2024 · google summer of code 2025
 
 $ uptime
 up since 2021 · first program printed "World I am here"
@@ -52,15 +52,24 @@ My whole story is a computer you can walk around in: **[comreton.vercel.app](htt
 </p>
 
 <p align="center">
-  <img alt="my last year of contributions, printed as halftone" src="./assets/contributions.svg" width="100%">
+  <a href="https://comreton.vercel.app/tape" title="hover any day for the count">
+    <img alt="every contribution since 2021, printed as halftone" src="./assets/contributions.svg" width="100%">
+  </a>
 </p>
+
+<p align="center"><sub><a href="https://comreton.vercel.app/tape">hover any day →</a> the same tape, live, with the count under your cursor</sub></p>
 
 <p align="center">
   <img alt="registers: contributions, commits, pull requests, reviews, stars, streak" src="./assets/registers.svg" width="100%">
 </p>
 
 <p align="center">
+  <img alt="what the work is made of: commits, pull requests, reviews, issues, stars, repos" src="./assets/radar.svg" width="49%">
   <img alt="most used languages" src="./assets/languages.svg" width="49%">
+</p>
+
+<p align="center">
+  <img alt="a manga lover" src="./assets/manga.svg" width="49%">
 </p>
 
 ---
@@ -81,8 +90,9 @@ stack      TypeScript · Python · Java · Rust · C++ · Spring Boot · Kafka �
 
 ```console
 $ sudo hire mrigesh
-[sudo] password for recruiter: ********
-permission granted. opening a channel…
+[sudo] password: ********
+permission granted. anyone can run this one.
+opening a channel…
 → mrigeshthakur11@gmail.com
 ```
 
