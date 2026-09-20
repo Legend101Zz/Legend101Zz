@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="comreton — Mrigesh Thakur, software engineer">
+  <defs>
+    <!-- riso halftone: two ink screens at different angles, like a real two-colour print -->
+    <pattern id="dotI" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <circle cx="1" cy="1" r="1.05" fill="#22304A" opacity=".24"/>
+    </pattern>
+    <pattern id="dotT" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(15)">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#177C80" opacity=".2"/>
+    </pattern>
+    <pattern id="dotA" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(75)">
+      <circle cx="1" cy="1" r="1.35" fill="#F7CE6D" opacity=".85"/>
+    </pattern>
+    <clipPath id="screen"><rect x="600" y="58" width="196" height="120" rx="7"/></clipPath>
+  </defs>
+
+  <!-- paper -->
+  <rect width="1000" height="250" fill="#F1EADB"/>
+  <rect width="1000" height="250" fill="url(#dotT)" opacity=".5"/>
+
+  <!-- the lamp, and the cord that switches the lights on the real site -->
+  <g stroke="#22304A" stroke-width="2" fill="none">
+    <path d="M905 0v14"/>
+    <path d="M880 40h50l-12-26h-26z" fill="#F7CE6D" stroke-linejoin="round"/>
+    <circle cx="905" cy="46" r="5" fill="#F7CE6D"/>
+    <path d="M918 44c2 22 1 40 1 56"/>
+  </g>
+  <ellipse cx="919" cy="104" rx="5" ry="7" fill="#F7CE6D" stroke="#22304A" stroke-width="1.6"/>
+
+  <!-- the machine -->
+  <g>
+    <rect x="576" y="34" width="244" height="168" rx="14" fill="#F7CE6D" stroke="#22304A" stroke-width="2.6"/>
+    <rect x="576" y="34" width="244" height="168" rx="14" fill="url(#dotA)" opacity=".5"/>
+    <rect x="592" y="48" width="212" height="140" rx="10" fill="none" stroke="#22304A" stroke-width="1.6" opacity=".45"/>
+    <rect x="600" y="58" width="196" height="120" rx="7" fill="#16202F" stroke="#22304A" stroke-width="2"/>
+
+    <!-- a room, printed in phosphor inside the tube -->
+    <g clip-path="url(#screen)">
+      <g transform="translate(698 130)">
+        <path d="M0-46 62-10 0 26-62-10z" fill="#F7CE6D" opacity=".18"/>
+        <path d="M-62-10 0 26 0 62-62 26z" fill="#22304A" opacity=".9"/>
+        <path d="M62-10 0 26 0 62 62 26z" fill="#22304A" opacity=".75"/>
+        <path d="M-62-10 0-46 0-10z" fill="#177C80" opacity=".55"/>
+        <path d="M62-10 0-46 0-10z" fill="#177C80" opacity=".4"/>
+        <g fill="#F7CE6D">
+          <path d="M-26 2 -6 14 -6 24 -26 12z" opacity=".95"/>
+          <path d="M-6 14 14 2 14 12 -6 24z" opacity=".8"/>
+          <path d="M-26 2 -6-10 14 2 -6 14z" opacity=".9"/>
+        </g>
+        <circle cx="30" cy="-2" r="4" fill="#DF5C3A"/>
+      </g>
+      <g fill="#F7CE6D" opacity=".85">
+        <rect x="614" y="66" width="62" height="5" rx="2"/>
+        <rect x="614" y="160" width="104" height="4" rx="2"/>
+        <rect x="614" y="168" width="70" height="4" rx="2" opacity=".6"/>
+        <rect x="752" y="66" width="30" height="5" rx="2" opacity=".7"/>
+      </g>
+      <rect x="690" y="64" width="7" height="9" fill="#DF5C3A">
+        <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- front panel: the registers -->
+    <rect x="600" y="184" width="196" height="12" rx="3" fill="#16202F"/>
+    <g fill="#F7CE6D" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="8" opacity=".92">
+      <text x="612" y="193">2021</text><text x="652" y="193">$26.5k</text>
+      <text x="702" y="193">38 PRs</text><text x="752" y="193">6 exit(1)</text>
+    </g>
+    <circle cx="806" cy="190" r="3.2" fill="#DF5C3A">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- the word, and who it belongs to -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+    <text x="72" y="86" font-size="56" fill="#22304A" font-style="italic" font-family="Georgia,'Times New Roman',serif">comreton</text>
+    <rect x="72" y="100" width="300" height="2.5" fill="#DF5C3A"/>
+    <text x="72" y="130" font-size="17" fill="#22304A">Mrigesh Thakur — software engineer</text>
+    <text x="72" y="156" font-size="13" fill="#5C6A82">// 26 rooms · 6 of them closed · still building</text>
+    <text x="72" y="196" font-size="13" fill="#177C80">walmart global tech · gsoc 2025 · caravan · brian2</text>
+    <text x="72" y="218" font-size="13" fill="#5C6A82">$ <tspan fill="#22304A">open comreton.vercel.app</tspan><tspan fill="#DF5C3A">_</tspan></text>
+  </g>
+
+  <!-- a stray print speck or two, because it is a print -->
+  <g fill="#22304A" opacity=".5">
+    <circle cx="470" cy="58" r="1.4"/><circle cx="520" cy="206" r="1.1"/><circle cx="40" cy="176" r="1.2"/>
+    <circle cx="960" cy="150" r="1.3"/><circle cx="330" cy="236" r="1"/>
+  </g>
+</svg>

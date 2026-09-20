@@ -1,0 +1,33 @@
+# Eats the contribution graph once a day and commits the result to the `output` branch,
+# in the comreton ink palette. README points at the raw files on that branch.
+name: generate the contribution snake
+
+on:
+  schedule: [{ cron: "0 3 * * *" }]
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: generate
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-light&color_snake=#DF5C3A&color_dots=#F1EADB,#F7CE6D,#177C80,#22304A,#22304A
+            dist/snake-dark.svg?palette=github-dark&color_snake=#F7CE6D&color_dots=#161B22,#22304A,#177C80,#DF5C3A,#F7CE6D
+
+      - name: push to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
