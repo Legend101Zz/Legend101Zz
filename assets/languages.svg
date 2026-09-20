@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 206" width="430" height="206" role="img" aria-label="most used languages">
+
+  <defs>
+    <pattern id="g" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(15)">
+      <circle cx="1.2" cy="1.2" r="1.1" fill="#177C80" opacity=".13"/>
+    </pattern>
+  </defs>
+  <rect width="430" height="206" fill="#F1EADB"/><rect width="430" height="206" fill="url(#g)"/>
+  <text x="14" y="22" font-size="13" fill="#22304A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">what I actually write</text>
+  <line x1="14" y1="28" x2="416" y2="28" stroke="#22304A" stroke-width="1" opacity=".25"/>
+  <rect x="14.0" y="34" width="375.3" height="14" rx="2" fill="#22304A" stroke="#22304A" stroke-width=".8"/><rect x="390.8" y="34" width="8.6" height="14" rx="2" fill="#177C80" stroke="#22304A" stroke-width=".8"/><rect x="400.9" y="34" width="4.6" height="14" rx="2" fill="#DF5C3A" stroke="#22304A" stroke-width=".8"/><rect x="407.0" y="34" width="3.0" height="14" rx="2" fill="#F7CE6D" stroke="#22304A" stroke-width=".8"/><rect x="411.5" y="34" width="2.0" height="14" rx="2" fill="#5C6A82" stroke="#22304A" stroke-width=".8"/><rect x="415.0" y="34" width="2.0" height="14" rx="2" fill="#E6DDC9" stroke="#22304A" stroke-width=".8"/><rect x="14" y="61" width="11" height="11" rx="2" fill="#22304A" stroke="#22304A" stroke-width=".8"/>
+    <text x="33" y="70" font-size="12" fill="#22304A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">JavaScript</text>
+    <text x="416" y="70" text-anchor="end" font-size="12" fill="#5C6A82" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">93.7%</text><rect x="14" y="83" width="11" height="11" rx="2" fill="#177C80" stroke="#22304A" stroke-width=".8"/>
+    <text x="33" y="92" font-size="12" fill="#22304A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">TypeScript</text>
+    <text x="416" y="92" text-anchor="end" font-size="12" fill="#5C6A82" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">2.5%</text><rect x="14" y="105" width="11" height="11" rx="2" fill="#DF5C3A" stroke="#22304A" stroke-width=".8"/>
+    <text x="33" y="114" font-size="12" fill="#22304A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">EJS</text>
+    <text x="416" y="114" text-anchor="end" font-size="12" fill="#5C6A82" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">1.5%</text><rect x="14" y="127" width="11" height="11" rx="2" fill="#F7CE6D" stroke="#22304A" stroke-width=".8"/>
+    <text x="33" y="136" font-size="12" fill="#22304A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">CSS</text>
+    <text x="416" y="136" text-anchor="end" font-size="12" fill="#5C6A82" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">1.1%</text><rect x="14" y="149" width="11" height="11" rx="2" fill="#5C6A82" stroke="#22304A" stroke-width=".8"/>
+    <text x="33" y="158" font-size="12" fill="#22304A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">HTML</text>
+    <text x="416" y="158" text-anchor="end" font-size="12" fill="#5C6A82" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">0.9%</text><rect x="14" y="171" width="11" height="11" rx="2" fill="#E6DDC9" stroke="#22304A" stroke-width=".8"/>
+    <text x="33" y="180" font-size="12" fill="#22304A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">Dart</text>
+    <text x="416" y="180" text-anchor="end" font-size="12" fill="#5C6A82" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">0.3%</text>
+</svg>

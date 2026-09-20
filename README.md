@@ -52,12 +52,15 @@ My whole story is a computer you can walk around in: **[comreton.vercel.app](htt
 </p>
 
 <p align="center">
-  <img alt="commits by the day" src="https://github-readme-activity-graph.vercel.app/graph?username=Legend101Zz&theme=minimal&bg_color=F1EADB&color=22304A&line=DF5C3A&point=177C80&area=true&area_color=F7CE6D&title_color=22304A&hide_border=true&custom_title=commits,%20by%20the%20day" width="100%">
+  <img alt="my last year of contributions, printed as halftone" src="./assets/contributions.svg" width="100%">
 </p>
 
 <p align="center">
-  <img height="165" alt="stats" src="https://github-readme-stats.vercel.app/api?username=Legend101Zz&show_icons=true&hide_border=true&hide_title=true&bg_color=F1EADB&text_color=22304A&icon_color=DF5C3A&ring_color=177C80&title_color=22304A">
-  <img height="165" alt="most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Legend101Zz&layout=compact&langs_count=8&hide_border=true&bg_color=F1EADB&text_color=22304A&title_color=22304A&hide_title=true">
+  <img alt="registers: contributions, commits, pull requests, reviews, stars, streak" src="./assets/registers.svg" width="100%">
+</p>
+
+<p align="center">
+  <img alt="most used languages" src="./assets/languages.svg" width="49%">
 </p>
 
 ---
