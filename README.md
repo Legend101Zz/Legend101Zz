@@ -53,23 +53,23 @@ My whole story is a computer you can walk around in: **[comreton.vercel.app](htt
 
 <p align="center">
   <a href="https://comreton.vercel.app/tape" title="hover any day for the count">
-    <img alt="every contribution since 2021, printed as halftone" src="./assets/contributions.svg?v=20260920" width="100%">
+    <img alt="every contribution since 2021, printed as halftone" src="./assets/contributions.svg?v=20260921" width="100%">
   </a>
 </p>
 
 <p align="center"><sub><a href="https://comreton.vercel.app/tape">hover any day →</a> the same tape, live, with the count under your cursor</sub></p>
 
 <p align="center">
-  <img alt="registers: contributions, commits, pull requests, reviews, stars, streak" src="./assets/registers.svg?v=20260920" width="100%">
+  <img alt="registers: contributions, commits, pull requests, reviews, stars, streak" src="./assets/registers.svg?v=20260921" width="100%">
 </p>
 
 <p align="center">
-  <img alt="what the work is made of: commits, pull requests, reviews, issues, stars, repos" src="./assets/radar.svg?v=20260920" width="49%">
-  <img alt="most used languages" src="./assets/languages.svg?v=20260920" width="49%">
+  <img alt="what the work is made of: commits, pull requests, reviews, issues, stars, repos" src="./assets/radar.svg?v=20260921" width="49%">
+  <img alt="most used languages" src="./assets/languages.svg?v=20260921" width="49%">
 </p>
 
 <p align="center">
-  <img alt="a manga lover" src="./assets/manga.svg?v=20260920" width="49%">
+  <img alt="a manga lover" src="./assets/manga.svg?v=20260921" width="49%">
 </p>
 
 ---
